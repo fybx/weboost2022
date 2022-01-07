@@ -6,7 +6,15 @@ body{
 /* Navbar */
 .nav-item{
     margin:auto;
+    
 }
 .nav-link{
     color: white;
+    padding: auto 0px;
+}
+.first-nav{
+    margin-left: 80px;
+}
+.last-nav{
+    margin-right: 80px;
 }

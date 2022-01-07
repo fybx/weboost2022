@@ -3,6 +3,7 @@
 body{
     background-color: rgb(49, 49, 49);
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Navbar */
@@ -18,6 +19,7 @@ body{
 .nav-link{
     color: white;
     padding: 0;
+    font-weight: 600;
 }
 .first-nav{
     margin-left: 80px;

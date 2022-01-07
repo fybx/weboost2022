@@ -38,8 +38,12 @@ header{
 }
 .btn-info{
     border-radius: 50px;
+    border-width: 0;
     height: 55px;
     width: 100px;
     font-weight: 800;
     margin:auto;
+}
+.btn-info:hover{
+    background-color: rgb(146, 229, 235);
 }

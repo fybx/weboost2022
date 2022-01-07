@@ -16,5 +16,5 @@ WE'Boost Hackathon 2022 Abstract takımının repository'sidir
  - [ ] Statik resimleri indir
  - [ ] Ana sayfayı yap
  - [ ] Kalan 5 sayfayı yap
- - [ ] 
+ - [ ] ///
  - [ ] Mobile optimize et

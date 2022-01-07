@@ -2,6 +2,11 @@ body{
     background-color: rgb(49, 49, 49);
     text-align: center;
 }
+
+/* Navbar */
 .nav-item{
     margin:auto;
+}
+.nav-link{
+    color: white;
 }

@@ -6,15 +6,21 @@ body{
 /* Navbar */
 .nav-item{
     margin:auto;
+    padding: 0;
     
 }
 .nav-link{
     color: white;
-    padding: auto 0px;
+    padding: 0;
 }
 .first-nav{
     margin-left: 80px;
 }
 .last-nav{
     margin-right: 80px;
+}
+.btn-info{
+    border-radius: 30px;
+    height: 55px;
+    width: 100px;
 }

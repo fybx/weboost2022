@@ -6,6 +6,10 @@ body{
 }
 
 /* Navbar */
+.nav{
+    margin-top: 20px;
+    margin-left: 12px;
+}
 .nav-item{
     margin:auto;
     padding: 0;

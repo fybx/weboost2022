@@ -1,3 +1,7 @@
 body{
     background-color: rgb(49, 49, 49);
+    text-align: center;
+}
+.nav-item{
+    margin:auto;
 }

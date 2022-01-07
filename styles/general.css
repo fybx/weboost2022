@@ -4,6 +4,7 @@ body{
     background-color: rgb(49, 49, 49);
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 /* Navbar */
@@ -31,4 +32,6 @@ body{
     border-radius: 30px;
     height: 55px;
     width: 100px;
+    font-weight: 800;
+    margin:auto;
 }

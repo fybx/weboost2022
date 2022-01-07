@@ -8,6 +8,9 @@ body{
 }
 
 /* Navbar */
+header{
+    font-size: 14px;
+}
 .nav{
     margin-top: 20px;
     margin-left: 12px;

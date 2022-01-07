@@ -6,8 +6,16 @@ body{
     font-family: 'Poppins', sans-serif;
     color: white;
 }
+a{
+    margin:auto;
+    padding:0;
+}
 
 /* Navbar */
+.navbar-nav{
+    width: 70%;
+    margin:auto;
+}
 header{
     font-size: 14px;
 }
@@ -25,11 +33,8 @@ header{
     padding: 0;
     font-weight: 600;
 }
-.first-nav{
-    margin-left: 80px;
-}
-.last-nav{
-    margin-right: 80px;
+.donate{
+    margin-right: 30px;
 }
 .btn-info{
     border-radius: 50px;

@@ -39,10 +39,11 @@ header{
 .btn-info{
     border-radius: 50px;
     border-width: 0;
-    height: 55px;
+    height: 52px;
     width: 100px;
     font-weight: 800;
     margin:auto;
+    margin-right: 15px;
 }
 .btn-info:hover{
     background-color: rgb(255, 255, 255);

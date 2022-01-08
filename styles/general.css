@@ -47,9 +47,10 @@ header {
 	border-width: 0;
 	height: 52px;
 	width: 100px;
-	font-weight: 800;
+	font-weight: 620;
 	margin: auto;
 	margin-right: 15px;
+	font-size: 15px;
 }
 .btn-info:hover {
 	background-color: rgb(255, 255, 255);

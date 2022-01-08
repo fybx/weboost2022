@@ -52,7 +52,7 @@ header{
         a{text-decoration: none;}
         footer{
             padding: 5vh 0;
-            background-color: rgb(7, 7, 7);
+            background-color: #212529;
             text-align: left;
         }
         footer hr{

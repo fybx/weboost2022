@@ -74,7 +74,7 @@ header{
         }
         footer h3{
             letter-spacing: 1px;
-            color: rgb(231, 231, 231);
+            color: rgb(211, 211, 211);
             font-weight: 600;
             font-size: 16px;
         }
@@ -84,8 +84,11 @@ header{
         footer li a{
             line-height: 200%;
             font-size: 15px;
-            color: rgb(240, 240, 240);
-            font-weight: 300;
+            color: rgb(145, 145, 145);
+            font-weight: 400;
+        }
+        footer li a:hover{
+            color: rgb(219, 219, 219);
         }
         .addressRow{
             width: 70%;

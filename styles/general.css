@@ -16,6 +16,9 @@ a {
 .navbar-logo{
 	height: 50px;
 }
+.naav{
+	padding: 13px 0;
+}
 .navbar-nav {
 	width: 70%;
 	margin: auto;

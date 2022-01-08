@@ -5,9 +5,10 @@ body {
 	text-align: center;
 	font-family: "Poppins", sans-serif;
 	color: white;
+    overflow-x: hidden;
 }
 a {
-	margin: auto;
+    cursor: pointer;
 	padding: 0;
 }
 
@@ -50,6 +51,88 @@ header {
 .btn-info:hover {
 	background-color: rgb(255, 255, 255);
 }
+/* Main Area */
+    .section{
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section h1{
+        text-transform: capitalize;
+        padding: 25px;
+        font-size: 50px;
+    }
+    .section p{
+        font-size: 20px;
+    }
+    #cont1-grad a{
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        border-radius: 50px;
+        padding: 12px 30px;
+        background-color: #f78501;
+        margin-top: 5vh;
+        transition: 0.5s ease-in-out;
+    }
+    #cont1-grad a:hover{
+        cursor: pointer !important;
+        background-color: white;
+        color: #f78501;
+    }
+    #cont2{height: 80vh;}
+    #cont2 .column{
+        background-color: white;
+        color: rgb(17, 17, 17);
+        border-radius: 25px;
+        padding:25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 22%;
+        margin: 0 2%;
+        justify-content: space-between;
+    }
+
+    #cont2 .column h2{
+        font-size: 23px;
+        padding: 20px 0;
+    }
+    #cont2 .column p{
+        font-weight: 300;
+        font-size: 15px;
+    }
+    #cont2 img{
+        width: 160px;
+    }
+    #cont2 .row{
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100vw;
+        overflow: hidden;
+        margin: 50px 0;
+    }
+    #cont2 a{
+        color: white;
+        font-weight: 500;
+        padding: 10px 20px;
+        border-radius: 25px;
+        border: 2px solid rgb(255, 255, 255);
+        background: rgb(195,151,237);
+        background: linear-gradient(90deg, rgba(195, 151, 237, 0.877), rgba(140, 167, 242, 0.808), rgba(0, 213, 255, 0.788));
+        transition: 0.5s ease-in-out;
+    }
+    #cont2 a:hover{
+        color: rgb(195,151,237);
+        background: white;
+        border: 2px solid rgb(195,151,237);
+    }
 /* Footer Area */
 li {
 	list-style: none;
@@ -70,7 +153,7 @@ footer hr {
 }
 .footerRow {
 	padding: 2vh 0;
-	margin: 0% 10% 26px;
+	margin: 0% 10%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -86,7 +169,7 @@ footer h3 {
 	font-size: 16px;
 }
 footer .column {
-	width: 25%;
+	width: 50%;
 }
 footer li a {
 	line-height: 200%;
@@ -106,13 +189,12 @@ footer li a:hover {
 }
 
 .divider hr{
-	width: 98%; 
-	margin: auto;
-	text-align: center;
+	width: 100%; 
+	margin:0;
 }
 
 .addressRow {
-	margin: 40px 10%;
+	margin: 20px 10%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -123,11 +205,10 @@ address {
 	color: rgb(182, 182, 182);
 	font-weight: 300;
 	letter-spacing: 0.5px;
-	
 }
 address a {
 	color: rgb(182, 182, 182);
-	font-weight: 500;
+	font-weight: 400;
 	transition: 0.3s ease-in-out;
 }
 address a:hover {
@@ -171,11 +252,10 @@ footer svg:hover {
 }
 
 #cont1-grad{
-	background: rgb(2,0,36);
-	background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(246,132,1,0.8225665266106442) 51%, rgba(246,132,1,1) 100%);
+	background: rgb(195,151,237);
+	background: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%);
 }
 
 #cont3 {
 	background: linear-gradient(45deg, #66afd1, #e68bf1);
 }
-

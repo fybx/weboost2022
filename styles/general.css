@@ -126,7 +126,7 @@ address {
 }
 address a {
 	color: rgb(182, 182, 182);
-	font-weight: 400;
+	font-weight: 500;
 	transition: 0.3s ease-in-out;
 }
 address a:hover {

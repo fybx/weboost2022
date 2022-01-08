@@ -136,18 +136,25 @@ footer svg:hover {
 	padding: 0 14px;
 	color: rgb(238, 238, 238);
 }
+.divider{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.divider hr{
+	width: 100%; 
+	margin:0;
+}
 
 /* ------------ Media Queries ------------ */
 @media screen and (max-width: 992px) {
 	#donate_button{
+		/*Hide donation button if the screen is narrrower than 992px*/
 		transform: scale(0);
 	}
 }
 
 /* containers on page */
 /* container 1 */
-
-
 
 #cont1 {
 	background-image: url(/images/home/home__hero_image.png);

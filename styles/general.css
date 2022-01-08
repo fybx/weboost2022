@@ -136,10 +136,19 @@ footer svg:hover {
 
 /* containers on page */
 /* container 1 */
+
+
+
 #cont1 {
 	background-image: url(/images/home/home__hero_image.png);
 	background-position: center;
 }
+
+#cont1-grad{
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(246,132,1,0.8225665266106442) 51%, rgba(246,132,1,1) 100%);
+}
+
 #cont3 {
 	background: linear-gradient(45deg, #66afd1, #e68bf1);
 }

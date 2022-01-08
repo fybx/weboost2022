@@ -70,8 +70,9 @@ header {
     .section p{
         font-size: 20px;
     }
-    #cont1 a{
-        cursor: pointer;
+
+	.orange-bg-btn{
+		cursor: pointer;
         color: white;
         font-size: 20px;
         font-weight: 500;
@@ -81,8 +82,9 @@ header {
         background-color: #f78501;
         margin-top: 5vh;
         transition: 0.5s ease-in-out;
-    }
-    #cont1 a:hover{
+	}
+
+    .orange-bg-btn:hover{
         cursor: pointer !important;
         background-color: white;
         color: #f78501;

@@ -96,8 +96,7 @@ footer li a:hover {
 	color: rgb(219, 219, 219);
 }
 .addressRow {
-	width: 70%;
-	margin: 40px 10%;
+	margin: 20px 40px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;

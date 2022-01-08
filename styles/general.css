@@ -137,7 +137,8 @@ footer svg:hover {
 /* containers on page */
 /* container 1 */
 #cont1 {
-	background-image: url(https://www.fbu.edu.tr/upload/custom/SEM/semresim//Kodlama-Teknolojik-Okur-Yazarlik.jpg);
+	background-image: url(/images/home/home__hero_image.png);
+	background-position: center;
 }
 #cont3 {
 	background: linear-gradient(45deg, #66afd1, #e68bf1);

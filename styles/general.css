@@ -47,3 +47,78 @@ header{
 .btn-info:hover{
     background-color: rgb(146, 229, 235);
 }
+/* Footer Area */
+        li{list-style: none;} 
+        a{text-decoration: none;}
+        footer{
+            padding: 5vh 0;
+            background-color: rgb(7, 7, 7);
+        }
+        footer hr{
+            width: 70%;
+            margin-left: 15%;
+            color: rgb(184, 184, 184);
+        }
+        .footerRow{
+            padding: 2vh 0;
+            margin: 0% 15%;
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        footer img{
+            width: 225px;
+            height: 46px;
+        }
+        footer h3{
+            letter-spacing: 1px;
+            color: rgb(231, 231, 231);
+            font-weight: 600;
+            font-size: 16px;
+        }
+        footer .column{
+            width: 25%;
+        }
+        footer li a{
+            line-height: 200%;
+            font-size: 15px;
+            color: rgb(240, 240, 240);
+            font-weight: 300;
+        }
+        .addressRow{
+            width: 70%;
+            margin:0 15%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        address{
+            font-size: 14px;
+            color: rgb(182, 182, 182);
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+        address a{
+            color: rgb(182, 182, 182); font-weight: 400;
+            transition: 0.3s ease-in-out;
+        }
+        address a:hover{color: white;}
+        footer svg{
+            color: rgb(182, 182, 182);
+            transition: 0.2s ease-in-out;
+            width: 24px;
+            height: 24px;
+        }
+        footer svg:hover{
+            margin-top: -4px;
+            color: rgb(245, 245, 245);
+        }
+        .social{
+            display: flex;
+            flex-direction: row;
+        }
+        .social a{
+            padding: 0 12px;
+            color: rgb(238, 238, 238);
+        }

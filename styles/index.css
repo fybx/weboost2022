@@ -39,4 +39,11 @@
     #esitlik_3{
         border-radius: 0px 0px 30px 30px;
     }
+    #cont5 ul li{
+        display: block;
+    }
+}
+
+#cont5 ul li{
+    display: inline-block;
 }

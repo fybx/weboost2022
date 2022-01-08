@@ -153,7 +153,7 @@ footer hr {
 }
 .footerRow {
 	padding: 2vh 0;
-	margin: 0% 10%;
+	margin: 10px 10%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -189,12 +189,12 @@ footer li a:hover {
 }
 
 .divider hr{
-	width: 100%; 
-	margin:0;
+	width: 98%; 
+	margin: auto;
 }
 
 .addressRow {
-	margin: 20px 10%;
+	margin: 35px 10%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -208,7 +208,7 @@ address {
 }
 address a {
 	color: rgb(182, 182, 182);
-	font-weight: 400;
+	font-weight: 500;
 	transition: 0.3s ease-in-out;
 }
 address a:hover {

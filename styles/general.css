@@ -70,7 +70,7 @@ footer hr {
 }
 .footerRow {
 	padding: 2vh 0;
-	margin: 0% 10%;
+	margin: 0% 10% 26px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -111,7 +111,7 @@ footer li a:hover {
 }
 
 .addressRow {
-	margin: 20px 10%;
+	margin: 40px 10%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;

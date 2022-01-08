@@ -262,3 +262,8 @@ footer svg:hover {
 #cont3 {
 	background: linear-gradient(45deg, #66afd1, #e68bf1);
 }
+
+#cont4{
+	padding: auto;
+	background: rgb(31, 31, 31);
+}

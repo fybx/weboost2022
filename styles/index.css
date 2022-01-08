@@ -1,0 +1,42 @@
+.esitlik-list{
+    color: black;
+}
+.esitlik-list li{
+    background-color: white;
+    display: inline-block;
+    width: 30%;
+}
+.esitlik-list li h1{
+    padding: 20px 0px 5px 10px;
+    /* top right bottom left */
+    
+}
+.esitlik-list li p{
+    padding: 0px 10px 15px 10px;
+    color: black;
+    /* top right bottom left */
+    margin: 0;
+}
+#esitlik_1{
+    border-radius: 30px 0px 0px 30px;
+}
+
+#esitlik_3{
+    border-radius: 0px 30px 30px 0px;
+}
+
+@media screen and (max-width: 992px) {
+    .esitlik-list li{
+        background-color: white;
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    } 
+    #esitlik_1{
+        border-radius: 30px 30px 0px 0px;
+    }
+    
+    #esitlik_3{
+        border-radius: 0px 0px 30px 30px;
+    }
+}

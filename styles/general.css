@@ -12,6 +12,9 @@ a {
 }
 
 /* Navbar */
+.navbar-logo{
+	height: 50px;
+}
 .navbar-nav {
 	width: 70%;
 	margin: auto;
@@ -134,6 +137,13 @@ footer svg:hover {
 	color: rgb(238, 238, 238);
 }
 
+/* ------------ Media Queries ------------ */
+@media screen and (max-width: 992px) {
+	#donate_button{
+		transform: scale(0);
+	}
+}
+
 /* containers on page */
 /* container 1 */
 
@@ -141,6 +151,7 @@ footer svg:hover {
 
 #cont1 {
 	background-image: url(/images/home/home__hero_image.png);
+	background-size: cover;
 	background-position: center;
 }
 
@@ -152,3 +163,4 @@ footer svg:hover {
 #cont3 {
 	background: linear-gradient(45deg, #66afd1, #e68bf1);
 }
+

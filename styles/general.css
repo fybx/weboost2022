@@ -52,7 +52,8 @@ header{
         li{list-style: none;} 
         a{text-decoration: none;}
         footer{
-            padding: 5vh 0;
+            padding: 7vh 0;
+            padding-bottom: 1px;
             background-color: #212529;
             text-align: left;
         }

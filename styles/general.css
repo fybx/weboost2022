@@ -45,7 +45,7 @@ header{
     margin:auto;
 }
 .btn-info:hover{
-    background-color: rgb(146, 229, 235);
+    background-color: rgb(255, 255, 255);
 }
 /* Footer Area */
         li{list-style: none;} 
@@ -62,7 +62,7 @@ header{
         }
         .footerRow{
             padding: 2vh 0;
-            margin: 0% 15%;
+            margin: 0% 10%;
             width: 70%;
             display: flex;
             flex-direction: row;
@@ -92,7 +92,7 @@ header{
         }
         .addressRow{
             width: 70%;
-            margin:0 15%;
+            margin: 40px 10%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -123,6 +123,6 @@ header{
             flex-direction: row;
         }
         .social a{
-            padding: 0 12px;
+            padding: 0 14px;
             color: rgb(238, 238, 238);
         }

@@ -256,7 +256,7 @@ footer svg:hover {
 	background-size: cover;
 	background-position: center;
 	background: rgb(195,151,237);
-	background-image:  linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%), url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg);
+	background:  linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%), url(https://amusd.net/wp-content/uploads/2021/03/Wallpaper-Full-HD.jpg) no-repeat;
 	
 }
 

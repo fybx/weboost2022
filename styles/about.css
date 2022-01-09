@@ -17,12 +17,10 @@
     font-weight: 200;
     box-sizing: border-box;
     padding: 10vh 0 !important;
-    height: 50vh;
 }
 #cont3
 {
     background: linear-gradient(45deg, #66afd1, #e68bf1);
-    height: 60vh;
 }
 
 .glass{
@@ -52,8 +50,7 @@
 }
 #cont4 {
     padding: 5vh 0;
-    height: 80vh;
-}
+    }
 #cont4 .left{
     display: flex;
     justify-content: flex-end;
@@ -61,13 +58,15 @@
     width: 50%;
 }
 #cont4 .row{
+    width: 70%;
     margin: 0;
     display: flex;
     flex-direction: row;
 }
 #cont4 .column{
     box-sizing: border-box;
-    padding: 0 3%;
+    padding: 0 2%;
+    padding-bottom: 3%;
     text-align: left;
     width: 50%;
 }
@@ -105,14 +104,21 @@
 .team{
     box-sizing: border-box;
     margin: 10vh 15vh;
-    height: 70vh;
 }
+.teamRow{
+    min-width: 300px;
+    flex-direction: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .card{
-    padding: 30px 30px;
+    padding: 30px 20px;
     background: rgba(255, 255, 255, 0);
     border: none;
     outline: none;
-    width: 20%;
+    width: 230px;
 }
 .card a{
     padding: 10px 0;
@@ -127,4 +133,28 @@
 .card p{
     font-weight: 200;
     font-size: 16px;
+
+}
+@media screen and (max-width: 1115px) {
+	/* This hides the donate button if viewport width is smaller than 1115 pixels */
+	#cont4 .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    #cont4 .left{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #cont4 .column{
+        text-align: center;
+        margin-left: 0%;
+        padding: 0 5vw;
+        padding-top: 3vh;
+        width: 100%;
+    }
+    #cont4 img{
+        padding: 0;
+        width: 70%;
+    }
 }

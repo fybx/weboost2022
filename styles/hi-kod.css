@@ -1,6 +1,5 @@
 #showcase{
-    background: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%), url(https://cdn.sanity.io/images/9kdepi1d/production/9a4c2d83e787ed4669b125bd1f02d8afff146646-2798x1574.png?w=1000&h=563&fit=crop);
-    background-position: center center;
+    background: linear-gradient(90deg, rgba(195, 151, 237, 0.6533963927367823) 0%, rgba(140, 168, 242, 0.5917717428768383) 55%, rgba(0, 212, 255, 0.5945728633250176) 100%), url(https://cdn.sanity.io/images/9kdepi1d/production/9a4c2d83e787ed4669b125bd1f02d8afff146646-2798x1574.png?w=1000&h=563&fit=crop) center center;
     background-size: cover;
     padding: 50px;
 }
@@ -24,15 +23,15 @@
 #cont2 div{
     margin: 20px 0;
 }
-/* #cont2 a{
-    font-size: 1vw;
-} */
+
+#cont2 p{
+    margin-bottom: 30px;
+}
 
 #cont3{
     background: linear-gradient(45deg, #66afd1, #e68bf1);
     padding: 50px;
 }
-
 
 #cont4 .left{
     display: flex;
@@ -48,8 +47,7 @@
 }
 #cont4 .column{
     box-sizing: border-box;
-    padding: 0 2%;
-    padding-bottom: 3%;
+    padding: 0 2% 3%;
     text-align: left;
     width: 50%;
 }

@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html lang="tr">
-
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Kodluyoruz | Hi-Kod</title>
-        <link rel="stylesheet" href="styles/general.css">
-        <link rel="stylesheet" href="styles/index.css">
-        <link rel="icon" href="images/favicon-32x32.png" type="image/png">
-    </head>
-
-
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Kodluyoruz | Hi-Kod</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/hi-kod.css">
+    <link rel="icon" href="images/favicon-32x32.png" type="image/png">
+</head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark naav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="navbar-logo" src="images/logo.png" alt="Kodluyoruz logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="images/logo.png" alt="Kodluyoruz logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
                         <a class="nav-link" href="kodla-donusturelim.html">Kodla Dönüştürelim</a>
                         <a class="nav-link" href="hi-kod.html">Hi-Kod</a>
                         <a class="nav-link" href="bootcamp.html">Bootcamp</a>
@@ -41,48 +33,49 @@
         </nav>
     </header>
     <main>
-   
-        <div class="showcase">
-            <h1>Hi-Kod projemizde sizleri neler bekliyor?</h1>
+        <div id="showcase">
+            <h1>Hi-Kod</h1>
+            <p>Kodluyoruz Jr. olarak EMpower desteği ile yazılım alanında kariyer hedefleyen 15-24 yaş arası tüm gençlerin hayallerine adım adım yürümesini sağlayacak <strong>“Hi-Kod”</strong> projesini başlattık. İçerikler tamamen Türkçe ve ücretsiz! </p>
+        </div>
+        <div class="section" id="cont2">
+            <h2>Hi-Kod projemizde sizleri neler bekliyor?</h2>
             <div class="row">
                 <div class="column">
                     <img src="https://cdn.sanity.io/images/9kdepi1d/production/294d797750d6b6b1a0e00fa8ab122997db92549e-863x574.svg?w=240&h=160&fit=crop&fm=webp" alt="Becerilerini Geliştir">
-                    <h2> “Nereden başlayacağım?”</h2>
+                    <h4>“Nereden başlayacağım?”</h4>
                     <p>Sürekli sana uygun eğitim içeriğini arıyorsun biliyoruz! Hedeflerine ulaşmana yardımcı olacak Hi-Kod Patikası’nı oluşturduk. Patika.dev’de seninle tanışmak için heyecanla bekliyor!</p>
-                    <a href="https://app.patika.dev/egitimler/hikod-patikasi">Hi-Kod Patikasına Katıl</a>
-                    
+                    <a class="gradient-bg-btn" href="https://app.patika.dev/egitimler/hikod-patikasi">Hi-Kod Patikasına Katıl</a>
                 </div>
-                <!-- -- -->
                 <div class="column">
                     <img src="https://cdn.sanity.io/images/9kdepi1d/production/6a5ed2a57036cbd99732311d8558882d2eaa6717-1088x826.svg?w=240&h=182&fit=crop&fm=webp" alt="">
-                    <h2>“Sadece videolar yeterli olmuyor.”</h2>
+                    <h4>“Sadece videolar yeterli olmuyor.”</h4>
                     <p>Becerilerini keşfetmek, potansiyelinin kilidini açmak için LevelUp programını tasarladık. Eğitim videolarını izlerken çalışma atölyelerine, eğlenceli etkinliklere katılabileceksin! Nerede mi? Tabii ki Kodluyoruz Jr. Discord sunucusunda. 😏 Ayrıca LevelUp programlarında öne çıkan öğrenciler yoğun bir eğitim sürecine katılmaya hak kazanacaklar. 😎</p>
-                    <a>LevelUp'a Katıl!</a>
+                    <a class="gradient-bg-btn">LevelUp'a Katıl!</a>
                 </div>
-                <!-- -- -->
                 <div class="column">
                     <img src="https://cdn.sanity.io/images/9kdepi1d/production/a0d5d919e567c1ca122529eea4a6350ac2997198-926x749.svg?w=240&h=194&fit=crop&fm=webp" alt="">
-                    <h2>“Tek başıma olmuyor.”</h2>
+                    <h4>“Tek başıma olmuyor.”</h4>
                     <p>Hayalindeki kariyere adım atmak isteyen mezunlarımız için sağladığımız desteklerden yararlan</p>
-                    <a href="https://discord.gg/huVN948">Discord'a Katıl!</a>
+                    <a class="gradient-bg-btn" href="https://discord.gg/huVN948">Discord'a Katıl!</a>
                 </div>
-</div>
-<div class="showcase">
-    <div class="container section">
-        <h1>Ne yapacağız?</h1>
-        <p>Kodluyoruz’da herkesin kodlama öğrenebileceğine ve herkesin yazılım alanında hedeflediği kariyerlere erişmesi gerektiğine inanıyoruz. "Hi-Kod" ile ilk bir sene içerisinde 1800 kişiyi yazılım alanında ilerletmeyi hedefledik. Bu kişiler içerisinde lise öğrencileri öncelikli olmak üzere 15-24 yaş arası tüm gençlerin Patika.dev üzerindeki eğitimleri tamamlamalarını sağlamak.</p>
-    </div>
-</div>
-<div class="showcase">
-    <h1>Hi-Kod LevelUp Programları</h1>
-    <p>Eğitim videolarını birlikte bitirmeye ne dersin? Sertifikalı çalışma atölyeleri, eğlenceli etkinlikler ve alanında uzman kişilerin tecrübelerini dinlemek istiyorsan LevelUp programlarımız tam sana göre!</p>
-    <div>
-        <h3>LevelUp'lar:</h3>
-        <li><a href="#">Frontend Web Geliştirme LevelUp#1</a></li>
-        <li><a href="#">Veri Bilimi LevelUp#1</a></li>
-    </div>
-    
-</main>
+            </div>
+        </div>
+        <div class="section" id="cont3">
+            <h1>Ne yapacağız?</h1>
+            <p>Kodluyoruz’da herkesin kodlama öğrenebileceğine ve herkesin yazılım alanında hedeflediği kariyerlere erişmesi gerektiğine inanıyoruz. "Hi-Kod" ile ilk bir sene içerisinde 1800 kişiyi yazılım alanında ilerletmeyi hedefledik. Bu kişiler içerisinde lise öğrencileri öncelikli olmak üzere 15-24 yaş arası tüm gençlerin Patika.dev üzerindeki eğitimleri tamamlamalarını sağlamak.</p>
+        </div>
+        <div class="section" id="cont4">
+            <h1>Hi-Kod LevelUp Programları</h1>
+            <p>Eğitim videolarını birlikte bitirmeye ne dersin? Sertifikalı çalışma atölyeleri, eğlenceli etkinlikler ve alanında uzman kişilerin tecrübelerini dinlemek istiyorsan LevelUp programlarımız tam sana göre!</p>
+            <div>
+                <h3>LevelUp'lar:</h3>
+                <ul>
+                    <li><a href="#">Frontend Web Geliştirme LevelUp#1</a> - Tamamlandı</li>
+                    <li><a href="#">Veri Bilimi LevelUp#1</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
 <div class="col-12 col-md-3 text-md-end p-0 footer-logo">
     <img src="https://res.cloudinary.com/danielkapper-com/image/upload/v1577156572/logo-one.png"
          alt="Kodluyoruz">
@@ -123,6 +116,7 @@
             <li><a href="#">İletişim</a></li>
             <li><a href="#">Kolay Erişim</a></li>
         </div>
+    </div>
 </footer>
 <div class="row addressRow" >
     <address class="col-12 col-md-7">© 2022 ABSTRACT Çerez Politikası, 

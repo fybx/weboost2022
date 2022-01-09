@@ -1,0 +1,29 @@
+#showcase{
+    background: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%), url(https://cdn.sanity.io/images/9kdepi1d/production/9a4c2d83e787ed4669b125bd1f02d8afff146646-2798x1574.png?w=1000&h=563&fit=crop);
+    background-position: center center;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex-grow: 1;
+    width: 35vh;
+}
+
+.column p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.column a{
+    width: 20px;
+    height: 10px;
+}
+
+#cont3{
+    background: linear-gradient(45deg, #66afd1, #e68bf1);
+}
+

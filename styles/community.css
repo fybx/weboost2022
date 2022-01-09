@@ -6,6 +6,7 @@
 .abscardmain{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     margin:50px;
 }
@@ -36,11 +37,70 @@
     font-size: 23px;
     margin: 10px 30px;
 }
+.abscard p{
+    color: black;
+}
 .abscard-date{
     font-size: 14px;
     color: rgb(102, 102, 102);
     font-weight: 400;
     margin-left: 30px;
     margin-top: 10px;
+}
 
+#cont1{
+    padding: 80px 0;
+}
+
+#cont2{
+    background-image: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%);
+    padding: 30px 0px;
+    text-align: left;
+}
+
+.container .div{
+    display: flex;
+    flex: row;
+}
+
+
+#cont2 img{
+    width: 100%;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+#cont3 ul{
+    background: white;
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#cont3 img{
+    object-fit: scale-down;
+}
+
+#cont4{
+    background-image: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%);
+    padding: 30px 0px;
+}
+
+#cont5 .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#cont5 img{
+    width: 100%;
+} 
+
+#cont5 p{
+    text-align: left;
+}
+
+#cont5 a{
+    padding: 10px;
+    font-size: 15px;
 }

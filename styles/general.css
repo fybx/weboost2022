@@ -76,11 +76,13 @@ header {
     .section h1{
         text-transform: capitalize;
         padding: 25px;
-        font-size: 50px;
+        font-size: 45px;
 		font-weight: 800;
     }
     .section p{
-        font-size: 20px;
+        font-size: 16px;
+		color: rgb(238, 238, 238);
+		font-weight: 500;
     }
 
 	.orange-bg-btn{
@@ -271,6 +273,7 @@ footer svg:hover {
 
 #cont3 {
 	background: linear-gradient(45deg, #66afd1, #e68bf1);
+	height: 50vh;
 }
 
 #cont4{

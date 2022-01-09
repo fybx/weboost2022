@@ -37,11 +37,14 @@ header {
 .nav-link {
 	color: white;
 	padding: 0;
+	margin-right: 0;
 	font-weight: 600;
 }
+
 .donate {
-	margin-right: 30px;
+	margin-right: 0;
 }
+
 .btn-info {
 	border-radius: 50px;
 	border-width: 0;
@@ -49,7 +52,6 @@ header {
 	width: 100px;
 	font-weight: 620;
 	margin: auto;
-	margin-right: 15px;
 	font-size: 15px;
 }
 .btn-info:hover {

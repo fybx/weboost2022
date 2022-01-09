@@ -47,7 +47,60 @@
 #showcase{
     background-size: cover;
     background-position: center center;
+    max-height: 570px;
     background-image: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%), url(../images/home/home__hero_image.png);
+}
+
+#cont2
+{
+    height: 80vh;
+}
+#cont2 .column{
+    background-color: white;
+    color: rgb(17, 17, 17);
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    margin: 0 2%;
+    justify-content: space-between;
+}
+
+#cont2 .column h2{
+    font-size: 23px;
+    padding: 20px 0;
+}
+#cont2 .column p{
+    font-weight: 300;
+    font-size: 15px;
+}
+#cont2 img{
+    width: 160px;
+}
+#cont2 .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    overflow: hidden;
+    margin: 50px 0;
+}
+#cont2 a{
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(195,151,237);
+    background: linear-gradient(90deg, rgba(195, 151, 237, 0.877), rgba(140, 167, 242, 0.808), rgba(0, 213, 255, 0.788));
+    transition: 0.5s ease-in-out;
+}
+#cont2 a:hover{
+    color: rgb(195,151,237);
+    background: white;
+    border: 2px solid rgb(195,151,237);
 }
 
 #cont3 {

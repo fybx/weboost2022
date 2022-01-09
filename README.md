@@ -15,6 +15,12 @@ WE'Boost Hackathon 2022 Abstract takımının repository'sidir
  - [x] Ana template'i oluştur
  - [x] Statik resimleri indir
  - [x] Ana sayfayı yap
- - [ ] Kalan 5 sayfayı yap
- - [ ] ///
- - [x] Mobile optimize et
+ - [ ] Kodla Dönüştürelim
+ - [ ] Hi-Kod
+ - [ ] Bootcamp
+ - [ ] Topluluk
+ - [ ] CS50x
+ - [ ] Kodluyoruz Jr.
+ - [ ] Şirketler
+ - [ ] Hakkımızda
+ - [x] Header ve footer responsive olacak

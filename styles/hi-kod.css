@@ -64,7 +64,7 @@
     width: 440px;
     height: 250px;
 }
-#cont4 ul, li{
+#cont4 ul, #cont4 li{
     list-style-type: circle;
     color: white;
 }

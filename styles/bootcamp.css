@@ -191,9 +191,13 @@
 }
 
 #cont7 img{
-    width: 600px;
-    margin: 40px 20px;
-    margin-left: 70px;
+    width: 100%;
+}
+
+@media screen and (max-width: 992){
+    #cont7 p{
+        margin: 50px;
+    }
 }
 
 /* CARDS created by hasso */

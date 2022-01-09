@@ -1,3 +1,17 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    margin: 50px 0;
+    flex: 1;
+    max-width: 440px;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
 .esitlik-list{
     color: black;
 }

@@ -30,7 +30,7 @@ a {
 }
 .navbar-nav {
 	width: 70%;
-	margin: 0px;
+	margin: 0;
 }
 header {
 	font-size: 14px;
@@ -93,7 +93,7 @@ header {
         letter-spacing: 1px;
         border-radius: 50px;
         padding: 12px 30px;
-        background-color: #f78501;
+        background-color: rgb(247, 133, 1);
         margin-top: 5vh;
         transition: 0.5s ease-in-out;
 	}
@@ -101,7 +101,7 @@ header {
     .orange-bg-btn:hover{
         cursor: pointer !important;
         background-color: white;
-        color: #f78501;
+        color: rgb(247, 133, 1);
     }
     #cont2{height: 80vh;}
     #cont2 .column{
@@ -129,7 +129,6 @@ header {
         width: 160px;
     }
     #cont2 .row{
-        margin: 0;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -160,8 +159,7 @@ a {
 	text-decoration: none;
 }
 footer {
-	padding: 7vh 0;
-	padding-bottom: 1px;
+	padding: 7vh 0 1px;
 	background-color: #212529;
 	text-align: left;
 }
@@ -206,7 +204,6 @@ footer li a:hover {
 	margin-left: 10%;
 	margin-right: 10%;
 }
-
 .divider hr{
 	width: 98%; 
 	margin: auto;
@@ -233,6 +230,7 @@ address a {
 address a:hover {
 	color: white;
 }
+
 footer svg {
 	color: rgb(182, 182, 182);
 	transition: 0.2s ease-in-out;
@@ -243,6 +241,7 @@ footer svg:hover {
 	margin-top: -4px;
 	color: rgb(245, 245, 245);
 }
+
 .social {
 	display: flex;
 	flex-direction: row;
@@ -252,42 +251,37 @@ footer svg:hover {
 	color: rgb(238, 238, 238);
 }
 
+/*
+ *  Showcase her sayfada bulunan gradyanlı resmin olduğu alandır
+ *  Varsayılan olarak (eğer siteye özgü CSS'te resim verilmezse) rengi
+ *  rgb(195,151,237) olarak ayarlanacaktır.
+ *
+ *  kodluyoruz.org'a en yakın benzerlikte olması için maksimum büyüklük 570px'i
+ *  geçmemelidir.
+ *
+ *  Sayfaların showcase section'ına resim yerleştirirken eklenecekler:
+ *  background-size: cover;
+ *  background-position: center center;
+ *  background-image: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%,
+ *  rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%),
+ *  url(resmin lokasyonu);
+ */
 
-/* ------------ Media Queries ------------ */
-@media screen and (max-width: 1115px) {
-	#donate_button{
-		/* Hide donation button if the screen is narrrower than 1115px */
-		display: none;
-	}
-}
-
-/* containers on page */
-/* container 1 */
-
-#cont1 {
+#showcase {
 	max-height: 570px;
-	background-size: cover;
-	background-position: center center;
 	background: rgb(195,151,237);
-	background-image: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%);
 }
-#cont1 h1{
+#showcase h1{
 	font-size: 60px;
 }
-#cont1 p{
+#showcase p{
 	font-size: 22px;
 }
 
-#cont3 {
-	background: linear-gradient(45deg, #66afd1, #e68bf1);
-	height: 50vh;
-}
-
-#cont4{
-	padding: auto;
-	background: rgb(31, 31, 31);
-}
-
-#cont5{
-	background: linear-gradient(45deg, #66afd1, #e68bf1);
+/* ------------ Media Queries ------------ */
+@media screen and (max-width: 1115px) {
+	/* This hides the donate button if viewport width is smaller than 1115 pixels */
+	#donate_button{
+		display: none;
+	}
 }

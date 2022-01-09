@@ -1,7 +1,16 @@
-#cont1{
+#showcase{
     background-image: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%), url(https://cdn.sanity.io/images/9kdepi1d/production/6731e2636c8fe0494e49fff12b123dfe9542bbee-2832x1388.jpg);
     background-position: left;
     background-size: cover;
+    height: 570px;
+}
+
+#cont2{
+    padding: 70px 0 70px 0;
+}
+
+#cont2 h1{
+    padding: 0;
 }
 
 #cont2 a{
@@ -13,6 +22,7 @@
     background: rgb(195,151,237);
     background: linear-gradient(90deg, rgba(195, 151, 237, 0.877), rgba(140, 167, 242, 0.808), rgba(0, 213, 255, 0.788));
     transition: 0.5s ease-in-out;
+    
 }
 #cont2 a:hover{
     color: rgb(195,151,237);
@@ -22,7 +32,6 @@
 
 #cont3{
     background: rgb(29, 29, 29);
-    height: auto;
     padding-bottom: 30px;
     text-align: left;
 }
@@ -30,11 +39,22 @@
 .card-list li{
     color: black;
     list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    margin: 15px;
 }
-.card-list u{
+
+.card-list img{
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+}
+.card-list ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
+    
 }
 .card-list a{
     text-decoration: none;
@@ -48,4 +68,75 @@
 #cont4{
     background: linear-gradient(90deg, rgba(195, 151, 237, 0.877), rgba(140, 167, 242, 0.808), rgba(0, 213, 255, 0.788));
 }
+#cont4 .column{
+    background-color: white;
+    color: rgb(17, 17, 17);
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    margin: 0 2%;
+    justify-content: space-between;
+}
 
+#cont4 .column h2{
+    font-size: 23px;
+    padding: 20px 0;
+}
+#cont4 .column p{
+    font-weight: 300;
+    font-size: 15px;
+}
+#cont4 img{
+    width: 160px;
+}
+#cont4 .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    overflow: hidden;
+    margin: 50px 0;
+}
+#cont4 a{
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(195,151,237);
+    background: linear-gradient(90deg, rgba(195, 151, 237, 0.877), rgba(140, 167, 242, 0.808), rgba(0, 213, 255, 0.788));
+    transition: 0.5s ease-in-out;
+}
+#cont4 a:hover{
+    color: rgb(195,151,237);
+    background: white;
+    border: 2px solid rgb(195,151,237);
+}
+
+#cont4 p{
+    color: black;
+}
+
+#cont4 ul{
+    padding: 0;
+    margin: 0;
+}
+
+#cont4 li{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+}
+
+@media screen and (max-width: 992px){
+    #cont4 li{
+        width: 80%;
+    }
+}

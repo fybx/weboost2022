@@ -45,8 +45,28 @@
     padding: 0;
 }
 
+.mentors{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    width: 30%;
+    color: black;
+    text-align: left;
+    margin: 15px;
+}
+.card-body{
+    height: 100px;
+}
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 992){
     #cont4 li{
         display: block;
     }
+    
 }

@@ -12,7 +12,7 @@ a {
 	padding: 0;
 }
 
-/* Navbar */
+/* Region: Header, Navigation Bar and Donate Button */
 .container-fluid{
 	padding-right: 20px;
 	overflow: hidden;
@@ -65,93 +65,85 @@ header {
 .btn-info:hover {
 	background: rgb(253, 186, 116);
 }
-/* Main Area */
-    .section{
-        height: 85vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .section h1{
-        text-transform: capitalize;
-        padding: 25px;
-        font-size: 45px;
-		font-weight: 800;
-    }
-    .section p{
-        font-size: 16px;
-		color: rgb(238, 238, 238);
-		font-weight: 500;
-    }
+/* End of Region: Header, Navigation Bar and Donate Button */
 
-	.orange-bg-btn{
-		cursor: pointer;
-        color: white;
-        font-size: 20px;
-        font-weight: 500;
-        letter-spacing: 1px;
-        border-radius: 50px;
-        padding: 12px 30px;
-        background-color: rgb(247, 133, 1);
-        margin-top: 5vh;
-        transition: 0.5s ease-in-out;
-	}
+/* Region: Section, Showcase*/
+/*
+ *  Showcase her sayfada bulunan gradyanlı resmin olduğu alandır
+ *  Varsayılan olarak (eğer siteye özgü CSS'te resim verilmezse) rengi
+ *  rgb(195,151,237) olarak ayarlanacaktır.
+ *
+ *  kodluyoruz.org'a en yakın benzerlikte olması için maksimum büyüklük 570px'i
+ *  geçmemelidir.
+ *
+ *  Sayfaların showcase section'ına resim yerleştirirken eklenecekler:
+ *  background-size: cover;
+ *  background-position: center center;
+ *  background-image: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%,
+ *  rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%),
+ *  url(resmin lokasyonu);
+ */
 
-    .orange-bg-btn:hover{
-        cursor: pointer !important;
-        background-color: white;
-        color: rgb(247, 133, 1);
-    }
-    #cont2{height: 80vh;}
-    #cont2 .column{
-        background-color: white;
-        color: rgb(17, 17, 17);
-        border-radius: 25px;
-        padding:25px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 22%;
-        margin: 0 2%;
-        justify-content: space-between;
-    }
+#showcase {
+	min-height: 570px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: rgb(195,151,237);
+}
+#showcase h1{
+	font-size: 60px;
+	text-transform: capitalize;
+	padding: 25px;
+	font-weight: 800;
+}
+#showcase p{
+	font-size: 22px;
+	color: rgb(238, 238, 238);
+	font-weight: 500;
+}
 
-    #cont2 .column h2{
-        font-size: 23px;
-        padding: 20px 0;
-    }
-    #cont2 .column p{
-        font-weight: 300;
-        font-size: 15px;
-    }
-    #cont2 img{
-        width: 160px;
-    }
-    #cont2 .row{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100vw;
-        overflow: hidden;
-        margin: 50px 0;
-    }
-    #cont2 a{
-        color: white;
-        font-weight: 500;
-        padding: 10px 20px;
-        border-radius: 25px;
-        border: 2px solid rgb(255, 255, 255);
-        background: rgb(195,151,237);
-        background: linear-gradient(90deg, rgba(195, 151, 237, 0.877), rgba(140, 167, 242, 0.808), rgba(0, 213, 255, 0.788));
-        transition: 0.5s ease-in-out;
-    }
-    #cont2 a:hover{
-        color: rgb(195,151,237);
-        background: white;
-        border: 2px solid rgb(195,151,237);
-    }
-/* Footer Area */
+.section{
+	max-height: 85vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.section h1{
+	text-transform: capitalize;
+	padding: 25px;
+	font-size: 45px;
+	font-weight: 800;
+}
+.section p{
+	font-size: 16px;
+	color: rgb(238, 238, 238);
+	font-weight: 500;
+}
+
+.orange-bg-btn{
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-radius: 50px;
+	padding: 12px 30px;
+	background-color: rgb(247, 133, 1);
+	margin-top: 5vh;
+	transition: 0.5s ease-in-out;
+}
+
+.orange-bg-btn:hover{
+	cursor: pointer !important;
+	background-color: white;
+	color: rgb(247, 133, 1);
+}
+/* End of Region: Section, Showcase*/
+
+/* Region: Footer */
 li {
 	list-style: none;
 }
@@ -250,33 +242,7 @@ footer svg:hover {
 	padding: 0 14px;
 	color: rgb(238, 238, 238);
 }
-
-/*
- *  Showcase her sayfada bulunan gradyanlı resmin olduğu alandır
- *  Varsayılan olarak (eğer siteye özgü CSS'te resim verilmezse) rengi
- *  rgb(195,151,237) olarak ayarlanacaktır.
- *
- *  kodluyoruz.org'a en yakın benzerlikte olması için maksimum büyüklük 570px'i
- *  geçmemelidir.
- *
- *  Sayfaların showcase section'ına resim yerleştirirken eklenecekler:
- *  background-size: cover;
- *  background-position: center center;
- *  background-image: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%,
- *  rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%),
- *  url(resmin lokasyonu);
- */
-
-#showcase {
-	max-height: 570px;
-	background: rgb(195,151,237);
-}
-#showcase h1{
-	font-size: 60px;
-}
-#showcase p{
-	font-size: 22px;
-}
+/* End of Region: Footer*/
 
 /* ------------ Media Queries ------------ */
 @media screen and (max-width: 1115px) {

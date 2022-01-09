@@ -168,6 +168,7 @@
 #cont7{
     background: linear-gradient(90deg, rgba(195, 151, 237, 0.877), rgba(140, 167, 242, 0.808), rgba(0, 213, 255, 0.788));
     padding:10px;
+    text-align: left;
 }
 
 #cont7 ul{
@@ -181,12 +182,17 @@
     display: inline-block;
 }
 
-#cont7 span{
+#cont7 p{
     font-weight: 300;
+}
+#cont7 span{
+    font-weight: 500;
 }
 
 #cont7 img{
-    width: 100%;
+    width: 600px;
+    margin: 40px 20px;
+    margin-left: 70px;
 }
 
 /* CARDS created by hasso */

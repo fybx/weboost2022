@@ -75,6 +75,7 @@
 #cont2 .column p{
     font-weight: 300;
     font-size: 15px;
+    color: rgb(17, 17, 17);
 }
 #cont2 img{
     width: 160px;
@@ -109,7 +110,6 @@
 }
 
 #cont4{
-    padding: 0;
     background: rgb(31, 31, 31);
 }
 

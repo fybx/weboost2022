@@ -1,0 +1,128 @@
+#cont1{
+    background: url('https://cdn.sanity.io/images/9kdepi1d/production/adc5ba76d85bf2af717070a93e3dceabf2064b8d-5211x3070.jpg?w=2000&h=1178&fit=crop&fm=webp');
+    background-size: 100%;
+    background-position: center;
+}
+#cont2 a{
+    margin-top: 5vh;
+    border: 2px solid #313131;
+}
+#cont2 a:hover{
+    background-color: #313131 !important;
+}
+#cont2 p{
+    font-size: 18px;
+    width: 70%;
+    margin: 0 15%;
+}
+#cont2, #cont3{
+    font-weight: 200;
+    box-sizing: border-box;
+    padding: 10vh 0 !important;
+    height: 50vh;
+}
+#cont3{height: 60vh;}
+.glass{
+    box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.089);
+    padding: 7vh 0;
+    margin: 0 10%;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.021);
+    backdrop-filter: blur(5px);
+}
+.glass p{
+    font-size: 18px;
+    width: 70%;
+    margin: 0 15%;
+    margin-bottom: 5%;
+}
+.glass a{
+    transition: 0.3s ease-in-out;
+    background-color: #F89420;
+    color: white;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 50px;
+}
+.glass a:hover{
+    background-color: white;
+    color: #F89420;
+}
+#cont4 {
+    padding: 5vh 0;
+    height: 80vh;
+}
+#cont4 .left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 50%;
+}
+#cont4 .row{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+#cont4 .column{
+    box-sizing: border-box;
+    padding: 0 3%;
+    text-align: left;
+    width: 50%;
+}
+#cont4 p{
+    font-weight: 300;
+    font-size: 1rem !important;
+    margin: 0 0 !important;
+}
+#cont4 span{
+    font-weight: 500;
+}
+#cont4 img{
+    padding-right: 3%;
+    width: 500px;
+}
+.section > h1{
+    font-weight: 600;
+    font-size: 2.25rem !important;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(195,151,237);
+	background: linear-gradient(90deg, rgb(195, 151, 237) 0%, rgb(140, 167, 242) 55%, rgb(0, 213, 255) 100%);
+}
+.line p{
+    margin: 0;
+    padding: 2vh 0;
+}
+.line a{
+    color: white;
+    font-weight: 600;
+}
+.team{
+    box-sizing: border-box;
+    margin: 10vh 15vh;
+    height: 70vh;
+}
+.card{
+    padding: 30px 30px;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    width: 20%;
+}
+.card a{
+    padding: 10px 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.card p{
+    font-weight: 200;
+    font-size: 16px;
+}

@@ -67,27 +67,7 @@
 #cont4{
     background: linear-gradient(90deg, rgba(195, 151, 237, 0.877), rgba(140, 167, 242, 0.808), rgba(0, 213, 255, 0.788));
 }
-#cont4 .column{
-    background-color: white;
-    color: rgb(17, 17, 17);
-    border-radius: 25px;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 22%;
-    margin: 0 2%;
-    justify-content: space-between;
-}
 
-#cont4 .column h2{
-    font-size: 23px;
-    padding: 20px 0;
-}
-#cont4 .column p{
-    font-weight: 300;
-    font-size: 15px;
-}
 #cont4 img{
     width: 160px;
 }
@@ -132,7 +112,6 @@
 #cont4 li{
     display: inline-block;
     width: 30%;
-    height: 100%;
     margin: 15px;
     padding: 20px;
     border-radius: 15px;

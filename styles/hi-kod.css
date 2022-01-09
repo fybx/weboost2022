@@ -17,23 +17,16 @@
     display: flex;
 }
 
-#cont2 .column{
-    flex-grow: 1;
-    width: 35vh;
+#cont2{
+    padding: 80px 100px;
 }
 
-#cont2 .column p{
-    font-size: 12px;
-    font-weight: 500;
-    margin-bottom: 25px;
-    flex-shrink: 1;
-    text-align: justify;
+#cont2 div{
+    margin: 20px 0;
 }
-
-#cont2 .column a{
-    width: 20px;
-    height: 10px;
-}
+/* #cont2 a{
+    font-size: 1vw;
+} */
 
 #cont3{
     background: linear-gradient(45deg, #66afd1, #e68bf1);
@@ -70,7 +63,7 @@
     width: 440px;
     height: 250px;
 }
-#cont4 ul, li{
+#cont4 ul{
     list-style-type: circle;
     color: white;
 }

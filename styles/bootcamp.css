@@ -118,6 +118,11 @@
 
 #cont4 p{
     color: black;
+    margin: 40px 0;
+}
+#cont4 h2{
+    color: black;
+    margin: 50px;
 }
 
 #cont4 ul{

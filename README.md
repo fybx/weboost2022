@@ -12,9 +12,9 @@ WE'Boost Hackathon 2022 Abstract takımının repository'sidir
 
 ### Roadmap
 
- - [ ] Ana template oluştur
- - [ ] Statik resimleri indir
- - [ ] Ana sayfayı yap
+ - [x] Ana template'i oluştur
+ - [x] Statik resimleri indir
+ - [x] Ana sayfayı yap
  - [ ] Kalan 5 sayfayı yap
  - [ ] ///
- - [ ] Mobile optimize et
+ - [x] Mobile optimize et

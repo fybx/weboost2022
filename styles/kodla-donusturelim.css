@@ -54,6 +54,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    
 }
 .card-list a{
     text-decoration: none;
@@ -84,6 +85,7 @@
     font-size: 23px;
     padding: 20px 0;
 }
+
 #cont4 .column p{
     font-weight: 300;
     font-size: 15px;
@@ -117,11 +119,6 @@
 
 #cont4 p{
     color: black;
-    margin: 40px 0;
-}
-#cont4 h2{
-    color: black;
-    margin: 50px;
 }
 
 #cont4 ul{
@@ -143,48 +140,4 @@
     #cont4 li{
         width: 80%;
     }
-}
-
-#cont6{
-    padding: 50px;
-}
-
-#cont6 h2{
-    font-weight: 800;
-    padding: 10px;
-    margin: 0 0 20px 0;
-
-}
-
-#cont6 h4{
-    margin: 5px;
-}
-
-#cont6 li{
-    display: inline-block;
-    margin: 0 50px;
-}
-
-#cont7{
-    background: linear-gradient(90deg, rgba(195, 151, 237, 0.877), rgba(140, 167, 242, 0.808), rgba(0, 213, 255, 0.788));
-    padding:10px;
-}
-
-#cont7 ul{
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-}
-
-#cont7 li{
-    text-align: left;
-    display: inline-block;
-}
-
-#cont7 span{
-    font-weight: 300;
-}
-
-#cont7 img{
-    width: 100%;
 }

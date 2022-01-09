@@ -15,6 +15,11 @@ a {
 /* Navbar */
 .container-fluid{
 	padding-right: 20px;
+	overflow: hidden;
+}
+
+#navbarNavAltMarkup{
+	flex-grow: 0;
 }
 
 .navbar-logo{
@@ -25,7 +30,7 @@ a {
 }
 .navbar-nav {
 	width: 70%;
-	margin: auto;
+	margin: 0px;
 }
 header {
 	font-size: 14px;
@@ -42,6 +47,7 @@ header {
 	color: white;
 	padding: 0;
 	margin-right: 0;
+	flex-shrink: 0;
 	font-weight: 600;
 }
 

@@ -1,7 +1,5 @@
-#cont1{
-    background: url('https://cdn.sanity.io/images/9kdepi1d/production/adc5ba76d85bf2af717070a93e3dceabf2064b8d-5211x3070.jpg?w=2000&h=1178&fit=crop&fm=webp');
-    background-size: 100%;
-    background-position: center;
+#showcase{
+    background: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%), url('https://cdn.sanity.io/images/9kdepi1d/production/adc5ba76d85bf2af717070a93e3dceabf2064b8d-5211x3070.jpg?w=2000&h=1178&fit=crop&fm=webp') center center;
 }
 #cont2 a{
     margin-top: 5vh;
@@ -33,8 +31,7 @@
 .glass p{
     font-size: 18px;
     width: 70%;
-    margin: 0 15%;
-    margin-bottom: 5%;
+    margin: 0 15% 5%;
 }
 .glass a{
     transition: 0.3s ease-in-out;

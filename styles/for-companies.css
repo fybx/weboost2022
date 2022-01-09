@@ -1,7 +1,7 @@
 #showcase{
     background-size: cover;
     background-position: center center;
-    background-image: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%), url(/images/for-companies/showcase.webp);
+    background-image: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%), url(../images/for-companies/showcase.webp);
 }
 .need{
     padding: 5vh 0;

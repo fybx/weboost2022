@@ -56,12 +56,14 @@ header {
 	border-width: 0;
 	height: 52px;
 	width: 100px;
-	font-weight: 620;
+	font-weight: 550;
 	margin: auto;
 	font-size: 15px;
+	color: rgb(33, 37, 41);
+	background: rgb(247, 133, 1);
 }
 .btn-info:hover {
-	background-color: rgb(255, 255, 255);
+	background: rgb(253, 186, 116);
 }
 /* Main Area */
     .section{

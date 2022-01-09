@@ -188,3 +188,47 @@
 #cont7 img{
     width: 100%;
 }
+
+/* CARDS created by hasso */
+.abscardmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px;
+}
+.abscard{
+    width: 395px;
+    height: 360px;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    margin: 23px;
+    text-align: left;
+    -webkit-box-shadow: -1px 3px 20px 5px rgba(87, 87, 87, 0.75);
+    -moz-box-shadow: -1px 3px 20px 5px rgba(87, 87, 87, 0.75);
+    box-shadow: -1px 3px 20px 5px rgba(87, 87, 87, 0.75);
+}
+.abscard img{
+    width: 395px;
+    height: 210px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.abscard-status{
+    margin: 20px 30px 10px 30px;
+    font-size: 14px;
+    font-weight: 550;
+    color: black !important;
+}
+.abscard h2{
+    font-size: 23px;
+    margin: 10px 30px;
+}
+.abscard-date{
+    font-size: 14px;
+    color: rgb(102, 102, 102) !important;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}

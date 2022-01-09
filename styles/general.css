@@ -255,7 +255,7 @@ footer svg:hover {
 @media screen and (max-width: 1115px) {
 	#donate_button{
 		/* Hide donation button if the screen is narrrower than 1115px */
-		transform: scale(0);
+		display: none;
 	}
 }
 

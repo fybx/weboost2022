@@ -13,6 +13,10 @@ a {
 }
 
 /* Navbar */
+.container-fluid{
+	padding-right: 20px;
+}
+
 .navbar-logo{
 	height: 50px;
 }
@@ -39,10 +43,6 @@ header {
 	padding: 0;
 	margin-right: 0;
 	font-weight: 600;
-}
-
-.donate {
-	margin-right: 0;
 }
 
 .btn-info {
@@ -244,9 +244,9 @@ footer svg:hover {
 
 
 /* ------------ Media Queries ------------ */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1115px) {
 	#donate_button{
-		/*Hide donation button if the screen is narrrower than 992px*/
+		/* Hide donation button if the screen is narrrower than 1115px */
 		transform: scale(0);
 	}
 }

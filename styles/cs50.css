@@ -1,0 +1,36 @@
+#cont2{
+    background: linear-gradient(90deg, rgba(195, 151, 237, 0.877), rgba(140, 167, 242, 0.808), rgba(0, 213, 255, 0.788));
+}
+
+#cont2 span{
+    font-weight: 300;
+}
+
+#cont2 p{
+    margin-bottom: 10px;
+}
+
+#cont2 a{
+    margin:10px 0 0 0;
+}
+
+#cont3 span{
+    font-weight: 300;
+}
+
+#cont3 p{
+    margin: 10px 0 30px 0px;
+}
+
+#cont4 h1{
+    padding: 0;
+}
+
+#cont4{
+    background: linear-gradient(90deg, rgba(195, 151, 237, 0.877), rgba(140, 167, 242, 0.808), rgba(0, 213, 255, 0.788));
+}
+
+#cont4 p{
+    margin: 30px 0 20px 0px;
+}
+

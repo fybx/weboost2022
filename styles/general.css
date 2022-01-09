@@ -143,6 +143,23 @@ header {
 	background-color: white;
 	color: rgb(247, 133, 1);
 }
+
+.gradient-bg-btn{
+	cursor: pointer;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-radius: 50px;
+	padding: 12px 30px;
+	background: linear-gradient(90deg, rgba(195,151,237,0.6533963927367823) 0%, rgba(140,168,242,0.5917717428768383) 55%, rgba(0,212,255,0.5945728633250176) 100%);
+	margin-top: 5vh;
+}
+.gradient-bg-btn:hover{
+	text-decoration: underline;
+	color: white;
+}
+
 /* End of Region: Section, Showcase*/
 
 /* Region: Footer */

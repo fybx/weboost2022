@@ -4,9 +4,12 @@
     background-size: cover;
     height: 570px;
 }
+#showcase p{
+    max-width: 1008px;
+}
 
 #cont2{
-    padding: 70px 0 70px 0;
+    text-align: center;
 }
 
 #cont2 h1{
